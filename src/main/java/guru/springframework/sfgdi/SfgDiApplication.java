@@ -13,7 +13,6 @@ public class SfgDiApplication {
 
 		MyController myController = (MyController) ctx.getBean("myController");
 		String greeting = myController.sayHello();
-
 		System.out.println(greeting);
 	}
 
